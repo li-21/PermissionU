@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.mine.MineFragment"
+    android:orientation="vertical">
+
+    <com.libinbin.permission.CommonBar
+        android:id="@+id/ps_storage"
+        style="@style/common_bar_style"
+        android:layout_marginTop="1dp"
+        android:background="@color/color_white"
+        app:iv_left_visible="false"
+        app:iv_right="@drawable/ic_arrow_right"
+        app:text_title="@string/ps_storage" />
+
+
+    <com.libinbin.permission.CommonBar
+        android:id="@+id/ps_camera"
+        style="@style/common_bar_style"
+        android:layout_marginTop="1dp"
+        android:background="@color/color_white"
+        app:iv_left_visible="false"
+        app:iv_right="@drawable/ic_arrow_right"
+        app:text_title="@string/ps_camera"></com.libinbin.permission.CommonBar>
+
+    <com.libinbin.permission.CommonBar
+        android:id="@+id/ps_location"
+        style="@style/common_bar_style"
+        android:layout_marginTop="1dp"
+        android:background="@color/color_white"
+        app:iv_left_visible="false"
+        app:iv_right="@drawable/ic_arrow_right"
+        app:text_title="@string/ps_location"></com.libinbin.permission.CommonBar>
+
+    <com.libinbin.permission.CommonBar
+        android:id="@+id/ps_phone"
+        style="@style/common_bar_style"
+        android:layout_marginTop="1dp"
+        android:background="@color/color_white"
+        app:iv_left_visible="false"
+        app:iv_right="@drawable/ic_arrow_right"
+        app:text_title="@string/ps_phone"></com.libinbin.permission.CommonBar>
+
+    <com.libinbin.permission.CommonBar
+        android:id="@+id/ps_sms"
+        style="@style/common_bar_style"
+        android:layout_marginTop="1dp"
+        android:background="@color/color_white"
+        app:iv_left_visible="false"
+        app:iv_right="@drawable/ic_arrow_right"
+        app:text_title="@string/ps_sms"></com.libinbin.permission.CommonBar>
+</LinearLayout>

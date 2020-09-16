@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">PermissionU</string>
+    <string name="title_home">Home</string>
+    <string name="title_mine">Mine</string>
+
+    <!-- ==================权限申请对话框（alertdialog）================== -->
+    <string name="permission_dialog_title">权限声明</string>
+    <string name="permission_dialog_message">应用需要以下权限，保障功能正常使用</string>
+    <string name="permission_dialog_dotask">您禁用了权限申请，需要到 \"设置中心\" 开启权限才能正常使用！</string>
+
+    <!-- ==================系统权限管理================== -->
+    <string name="ps_storage">文件</string>
+    <string name="ps_camera">相机</string>
+    <string name="ps_location">位置</string>
+    <string name="ps_phone">电话</string>
+    <string name="ps_sms">短信</string>
+    <string name="tv_right">允许访问</string>
+    <string name="tv_right_no">不允许访问</string>
+</resources>

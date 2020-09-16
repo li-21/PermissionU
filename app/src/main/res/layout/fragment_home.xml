@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+    <Button
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:background="@color/colorPrimary"
+        android:text="电话"
+        android:textColor="@color/color_white"
+        android:textSize="16sp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"></Button>
+
+    <Button
+        android:id="@+id/camera"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:text="相机"
+        android:textColor="@color/color_white"
+        android:textSize="16sp"
+        android:background="@color/colorPrimary"
+        app:layout_constraintTop_toBottomOf="@+id/phone"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"></Button>
+
+    <Button
+        android:id="@+id/storage"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:text="文件"
+        android:textColor="@color/color_white"
+        android:textSize="16sp"
+        android:background="@color/colorPrimary"
+        app:layout_constraintTop_toBottomOf="@+id/camera"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"></Button>
+
+    <Button
+        android:id="@+id/location"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:text="位置"
+        android:textColor="@color/color_white"
+        android:textSize="16sp"
+        android:background="@color/colorPrimary"
+        app:layout_constraintTop_toBottomOf="@+id/storage"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"></Button>
+
+    <Button
+        android:id="@+id/sms"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:text="短信"
+        android:textColor="@color/color_white"
+        android:textSize="16sp"
+        android:background="@color/colorPrimary"
+        app:layout_constraintTop_toBottomOf="@+id/location"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"></Button>
+
+    <Button
+        android:id="@+id/group"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:text="电话、相机、文件、位置、短信"
+        android:textColor="@color/color_white"
+        android:textSize="16sp"
+        android:background="@color/colorPrimary"
+        app:layout_constraintTop_toBottomOf="@+id/sms"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"></Button>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
